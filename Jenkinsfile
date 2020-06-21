@@ -72,11 +72,11 @@ pipeline {
                 sh 'mvn clean package'
             }      
              
-            post {
+            /*post {
                 always {
                     junit 'target/surefire-reports/*.xml'
                 }
-            }
+            }*/
        }
 	    
 	    
